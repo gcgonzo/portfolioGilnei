@@ -1,63 +1,61 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="css/styles.css">  
+  <link rel="stylesheet" href="css/styles.css">
 
-  <link 
-  rel="stylesheet" 
-  href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
-  integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" 
-  crossorigin="anonymous" 
-  referrerpolicy="no-referrer" 
-/>
-<title>Portifólio Gilnei</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+    integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <title>Portifólio Gilnei Gonzo</title>
 </head>
+
 <body>
 
   <section class="home" id="home">
     <header>
       <div class="logo">
-        <h2>G<span>G</span></h2>
+        <img src="img/logo.png" alt="Logo">
       </div>
       <nav>
         <ul class="hideNavbar">
           <li class="nav-links"><a href="#home">Home</a></li>
-          <li class="nav-links"><a href="#about">Sobre Mim</a></li>
-          <li class="nav-links"><a href="#skill">Conhecimento</a></li>
-          <li class="nav-links"><a href="#timeline">Timeline</a></li>
-          <li class="nav-links"><a href="#project">Projetos</a></li>
-          <li class="nav-links"><a href="#contact">Contato</a></li>
+          <li class="nav-links"><a href="#page-1">Sobre Mim</a></li>
+          <li class="nav-links"><a href="#page-2">Conhecimento</a></li>
+          <li class="nav-links"><a href="#page-3">Timeline</a></li>
+          <li class="nav-links"><a href="#page-4">Projetos</a></li>
+          <li class="nav-links"><a href="#page-5">Contato</a></li>
         </ul>
         <button id="btn-mobile">Menu</button>
-          
+
         </div>
-      </nav>  
+      </nav>
     </header>
-    <main>
-      <div class="home-left">
+    <div class="container-home">
+      <div class="content-left">
         <h3>Olá !!!</h3>
         <h1>Eu sou Gilnei<span class="colorText"> Gonzo</span></h1>
         <h3>Programador Front-end e Back-end</h3>
 
         <div class="btn-social">
           <ul>
-            <li><a href="#"><img src="img/facebook.png" alt="Facebook"></a></li>
-            <li><a href="#"><img src="img/linkedin.png" alt="LinkedIn"></a></li>
-            <li><a href="#"><img src="img/instagram.png" alt="LinkedIn"></i> </a></li>
-            <li><a href="#"><img src="img/googleplus.png" alt="Google Plus"></a></li>
+            <li><a href="#"><img src="img/facebook.svg" alt="Facebook"></a></li>
+            <li><a href="#"><img src="img/linkedin.svg" alt="LinkedIn"></a></li>
+            <li><a href="#"><img src="img/instagram.svg" alt="LinkedIn"></i> </a></li>
+            <li><a href="#"><img src="img/Github.svg" alt="Github"></a></li>
           </ul>
         </div>
       </div>
-      <div class="home-right">          
-        <img class="principal" src="img/Foto-home.png" alt="Foto Principal">                 
-    </div> 
-    </main>
+      <div class="content-right">
+        <img class="principal" src="img/Foto-home.png" alt="Foto Principal">
+      </div> 
+    </div>
     <div class="scroll">
       <i class="fas fa-arrow-down"></i>
-    </div>
+    </div> 
   </section>
   <section class="page" id="page-1">
     <div class="title-right">
@@ -67,8 +65,8 @@
     </div>
     <div class="container about">
       <div class="content-img">
-        <div class="box"></div>
-        <img src="./img/aboutMe.jpg" alt="Foto">
+        <div class="box"><img src="./img/aboutMe.jpg" alt="Foto"></div>
+        
       </div>
       <div class="content-text">
         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. 
@@ -83,17 +81,18 @@
           Reiciendis repellendus expedita enim, amet pariatur, fugiat 
           magni sed quaerat iste nulla dolores itaque nostrum, 
           eligendi error ad blanditiis voluptatum distinctio ducimus?</p>
+        </div>
       </div>
-    </div>
+      
     <div class="line"></div>
-  </section>
-   <section class="page" id="page-2">
-    <div class="title-letf">
+  </section> 
+  <section class="page" id="page-2"> 
+    <div class="title-left">
       <div class="title">
-        <h2>Conhecimento <strong class="bg-text" >skill</strong></h2>        
+        <h2>Sobre mim <strong class="bg-text" >About</strong></h2>        
       </div>
     </div>
-    <div class="container">
+    <div class="container skill">
         <div class="progress-bars">
           <div class="progress-bar">
             <p class="prog-text">html5</p>
@@ -173,7 +172,7 @@
     
   </section> 
   <section class="page" id="page-3">
-    <div class="title-right">
+    <div class="title-right" >
       <div class="title">
         <h2>Linha do Tempo <strong class="bg-text" >Timeline</strong></h2>        
       </div>
@@ -251,7 +250,7 @@
     <div class="line"></div>
   </section>
   <section class="page" id="page-4">
-    <div class="title-left">
+    <div class="title-left" >
       <div class="title">
         <h2>Projetos <strong class="bg-text" >Github</strong></h2>        
       </div>
@@ -397,8 +396,8 @@
       
     <div class="line"></div>
   </section>
-   <section class="page" id="page-5">
-    <div class="title-right">
+  <section class="page" id="page-5">
+    <div class="title-right" >
       <div class="title">
         <h2>Contato<strong class="bg-text" >Email</strong></h2>        
       </div>
@@ -449,7 +448,7 @@
   </section>
   <footer>
     <div class="copyright">
-      <p>&copy; Name Lastname</p>
+      <p>&copy; Criado por Gilnei Gonzo</p>
     </div>
     <div class="social-medias">
       <a href="#"><i class="fab fa-facebook-f"></i></a>
@@ -469,7 +468,7 @@
 
   </footer>
 
-
   <script type="text/javascript" src="js/srcipt.js"></script>
 </body>
+
 </html>
