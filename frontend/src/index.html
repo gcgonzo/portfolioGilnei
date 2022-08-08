@@ -29,8 +29,15 @@
           <li class="nav-links"><a href="#page-4">Projetos</a></li>
           <li class="nav-links"><a href="#page-5">Contato</a></li>
         </ul>
-        <button id="btn-mobile">Menu</button>
+            <div class="btn-menu">
+              <input type="checkbox" id="checkbox-menu">
 
+              <label for="checkbox-menu">
+                <span></span>
+                <span></span>
+                <span></span>
+              </label>
+            </div> 
         </div>
       </nav>
     </header>
@@ -56,6 +63,7 @@
     <div class="scroll">
       <i class="fas fa-arrow-down"></i>
     </div> 
+    <div class="cover hidenCover"></div>
   </section>
   <section class="page" id="page-1">
     <div class="title-right">
@@ -65,8 +73,7 @@
     </div>
     <div class="container about">
       <div class="content-img">
-        <div class="box"><img src="./img/aboutMe.jpg" alt="Foto"></div>
-        
+        <div class="box"><img src="./img/aboutMe.jpg" alt="Foto"></div>        
       </div>
       <div class="content-text">
         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. 
@@ -89,7 +96,7 @@
   <section class="page" id="page-2"> 
     <div class="title-left">
       <div class="title">
-        <h2>Sobre mim <strong class="bg-text" >About</strong></h2>        
+        <h2>Conhecimento<strong class="bg-text" >Skill</strong></h2>        
       </div>
     </div>
     <div class="container skill">
@@ -406,17 +413,16 @@
       <div class="contact">
         <form action="#">
           <h4>Mensagem</h4>
-          <div class="row">
+          <div class="row" id="email">
             <input type="text" name="name" placeholder="Digite o seu nome" />
             <input
               type="email"
               name="email"
               placeholder="Digite seu e-mail"
-            />
+            />  
+            <input type="text" name="suject" placeholder="Digite o assunto" />          
           </div>
-          <div class="row">
-            <input type="text" name="suject" placeholder="Digite o assunto" />
-          </div>
+          
           <div class="row">
             <textarea
               name="message"
@@ -466,7 +472,7 @@
       >Voltar!!!</a
     >
 
-  </footer>
+  </footer> 
 
   <script type="text/javascript" src="js/srcipt.js"></script>
 </body>
